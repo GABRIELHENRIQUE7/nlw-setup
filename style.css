@@ -32,11 +32,17 @@
     display: flex;
     align-items: center;
     gap: 12px;
+    cursor: pointer;
 
     font-family: 'Inter';
     font-weight: 600;
     font-size: 16px;
     line-height: 125%;
+  }
+
+  button:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
   }
 
   #form-habits  {
